@@ -1,1 +1,1 @@
-window.LITERACY_CONFIG = { endpoint: "", sheetId: "1pdJWwcjdaPod_5I5TTin-GLLelphg5TuqMMl9O6yHH0" };
+window.LITERACY_CONFIG = { endpoint: "https://script.google.com/macros/s/AKfycbxmmoXkQhJXzS4v_NfvECRu-bbgt55Ho0SLJ_gBDONuc8yIlnn_iO3lely0g0owWfgG/exec", sheetId: "1pdJWwcjdaPod_5I5TTin-GLLelphg5TuqMMl9O6yHH0" };
