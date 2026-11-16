@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>H5P Scope Test</title>
+<style>body{font-family:Arial,sans-serif;max-width:1000px;margin:30px auto;padding:0 18px;color:#251b30}header{background:#2b0f46;color:#fff;padding:24px;border-radius:12px}h1{margin:0 0 8px}.notice{background:#f4eff9;padding:15px;margin:20px 0;border-radius:8px}h5p-player{display:block;min-height:420px}#status{white-space:pre-wrap;background:#f7f7f7;border:1px solid #ddd;padding:15px;line-height:1.6}a{color:#52248a}</style>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-offline-player@1.5.1/dist/h5p-player.js"></script></head>
+<body><header><h1>Original H5P Playback: Scope Test</h1><div>Instructor-only test · no grades submitted</div></header>
+<div class="notice">This test page lives inside <code>/h5p/</code>, where the service worker is registered. It does not modify the student course or Google Sheets.</div>
+<pre id="status">Starting checks…</pre>
+<h5p-player src="../original-scenario.h5p" libraries="pack" pack-base="../h5p-libraries/" sw="../h5p-sw.js" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player>
+<p><a href="../index.html">Back to current simulation</a></p>
+<script>
+const status=document.getElementById('status');
+const log=(label,value)=>{status.textContent+='\n'+label+': '+String(value)};
+status.textContent='Page: '+location.pathname;
+window.addEventListener('error',e=>log('Page error',e.message));
+window.addEventListener('unhandledrejection',e=>log('Unhandled rejection',e.reason?.stack||e.reason));
+(async()=>{
+ log('Service workers supported','serviceWorker' in navigator);
+ if('serviceWorker' in navigator){
+  log('Controller on arrival',navigator.serviceWorker.controller?.scriptURL||'NONE');
+  try{const registrations=await navigator.serviceWorker.getRegistrations();log('Registered worker scopes',registrations.map(r=>r.scope).join(' | ')||'NONE');}catch(e){log('Registration check failed',e.message)}
+  navigator.serviceWorker.addEventListener('controllerchange',()=>log('Controller changed to',navigator.serviceWorker.controller?.scriptURL||'NONE'));
+ }
+ for(const path of ['../original-scenario.h5p','../h5p-libraries/index.json','../h5p-sw.js']){
+  try{const r=await fetch(path,{cache:'no-store'});log(path,r.status+' '+r.statusText)}catch(e){log(path,e.message)}
+ }
+ const player=document.querySelector('h5p-player');
+ player.addEventListener('error',e=>log('Player error event',e.detail?.message||JSON.stringify(e.detail)||e.type));
+ player.addEventListener('load',()=>log('Player load event','received'));
+ setTimeout(()=>{const frame=player.shadowRoot?.querySelector('iframe');log('Player iframe present',!!frame);log('Iframe URL',frame?.src||'(blank)');log('Controller after 5 seconds',navigator.serviceWorker?.controller?.scriptURL||'NONE');},5000);
+})();
+</script></body></html>
