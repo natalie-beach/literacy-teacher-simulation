@@ -1,0 +1,1072 @@
+{
+  "branchingScenario": {
+    "title": "Think Like a Literacy Teacher",
+    "startScreen": {
+      "startScreenTitle": "Think Like a Literacy Teacher",
+      "startScreenSubtitle": "<p>A differentiated reading instruction simulation · Grade 1 · Approximately 60 minutes</p>"
+    },
+    "endScreens": [
+      {
+        "endScreenTitle": "Simulation complete",
+        "endScreenSubtitle": "<p>Submit your literacy-block plan and reflection through the Canvas assignment.</p>",
+        "contentId": -1,
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Welcome — You are responsible for literacy instruction</h2>\n<p>You teach a first-grade classroom with students who have different reading strengths and needs. Some are learning letter–sound relationships, others are decoding words, and others are ready to work with connected text more independently.</p>\n<p>You have planned small-group instruction, prepared independent activities, and organized the literacy block. But planning a literacy block is not the same as teaching one.</p>\n<p>You will decide <strong>what to teach</strong>, <strong>how to scaffold it</strong>, <strong>what classmates can do independently</strong>, and <strong>what evidence tells you instruction is working</strong>. Your choices change what happens next.</p>\n<p><strong>Your goal is not simply to keep students busy. Your goal is to make sure students are learning to read.</strong></p>\n<p><strong>Estimated time:</strong> 60 minutes. Keep a response document open for the reflection and planning prompts. The H5P decision points provide feedback; extended responses are submitted separately.</p>\n"
+          },
+          "subContentId": "d1f65d35-f063-55c7-8e20-d8167789a309",
+          "metadata": {
+            "title": "Welcome — You are responsible for literacy instruction",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 1,
+        "contentId": 0
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Part 1 — Learn: Start with the instructional need</h2>\n<p>Differentiated reading instruction begins with evidence about <strong>specific</strong> reading needs, not broad labels.</p>\n<ul>\n<li>A student may know letter names but not connect letters with their sounds.</li>\n<li>A student may identify sounds but struggle to blend them into words.</li>\n<li>A student may decode words individually but struggle in connected text.</li>\n<li>A student may read accurately but struggle to explain the meaning.</li>\n</ul>\n<p>These students do not automatically need the same lesson. Group students by <strong>instructional strengths and needs</strong>, use flexible groups, and revise groups as performance changes.</p>\n<p><strong>Decision rule:</strong> Name the skill, plan how to teach it, and identify evidence of its use.</p>\n"
+          },
+          "subContentId": "7955cd60-ca1e-5299-81bd-6d5d6b204591",
+          "metadata": {
+            "title": "Part 1 — Learn: Start with the instructional need",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 2,
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>**Evidence from three students**<br><br>- **Student A:** Knows most letter sounds but struggles to blend three phonemes into a word.<br>- **Student B:** Blends CVC words accurately but struggles to read them in connected text.<br>- **Student C:** Reads words accurately but cannot explain what a short passage means.<br><br>**Which grouping decision is most defensible?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Place all three together because each experiences difficulty during reading.",
+                  "nextContentId": 3,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "A broad label such as “reading difficulty” is not an adequate teaching objective. The students’ error patterns point to different instructional targets."
+                  }
+                },
+                {
+                  "text": "B. Group Students A and B around related word-reading needs, while checking whether they need different lesson objectives.",
+                  "nextContentId": 5,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "This is the most defensible of these choices, but A and B are not interchangeable. Blending phonemes and applying decoding in connected text may require distinct objectives, scaffolds, or flexible subgroups."
+                  }
+                },
+                {
+                  "text": "C. Group Students B and C because both recognize words and can move to advanced reading.",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Student B needs support applying decoding in text; Student C needs support with meaning. Shared word recognition does not establish a shared instructional need."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "7d43db37-953d-53a4-bf0f-f80dbf26fd9a",
+          "metadata": {
+            "title": "Knowledge check 1 — Identify the instructional need",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 2
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>A broad label such as “reading difficulty” is not an adequate teaching objective. The students’ error patterns point to different instructional targets.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "9c615d87-57d2-5f77-a4a7-69f91c8f7e41",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 2,
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — C</h2>\n<p>Student B needs support applying decoding in text; Student C needs support with meaning. Shared word recognition does not establish a shared instructional need.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "08a400e4-858a-5008-ab17-2c1f5ed4fd67",
+          "metadata": {
+            "title": "Instructional consequence — C",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 2,
+        "contentId": 4
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Pause and reason — Grouping decisions</h2>\n<p>In your response document, note: <strong>What skill evidence would justify teaching two students together?</strong> When might you keep a group together but differentiate the task or scaffold?</p>\n<p><strong>Teaching point:</strong> Treat groups as flexible responses to learning data, not permanent reading labels.</p>\n"
+          },
+          "subContentId": "70f69404-83e0-5b37-ac38-dcf02ca5971f",
+          "metadata": {
+            "title": "Pause and reason — Grouping decisions",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 6,
+        "contentId": 5
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Learn: Explicit instruction and responsive scaffolding</h2>\n<p>Once the instructional need is clear, the teaching sequence matters.</p>\n<p><strong>I Do:</strong> Clearly model the target skill and make the relevant reasoning explicit.</p>\n<p><strong>We Do:</strong> Guide students through repeated responses and provide specific, immediate corrective feedback.</p>\n<p><strong>You Do:</strong> Move students into increasingly independent practice after they demonstrate success.</p>\n<p>Scaffolds help students perform a skill they are learning. For blending, begin with manageable examples, model and guide the process, and increase complexity or reduce prompts in response to student performance. A scaffold should <strong>move learners toward independence</strong>, not replace the thinking they need to do.</p>\n"
+          },
+          "subContentId": "fcf2057a-6e04-5dc9-a312-a63b0aa801fb",
+          "metadata": {
+            "title": "Learn: Explicit instruction and responsive scaffolding",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 7,
+        "contentId": 6
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Observe: Decoding in isolation and in text</h2>\n<p><strong>IES Grade K–1 Module 3, Video 13 — “Decodable Words in Isolation and in Text” (7:43)</strong></p>\n<p>Watch for: (1) how the reading skill is demonstrated; (2) students’ opportunities to respond; (3) the teacher’s feedback; and (4) the transition from isolated words to connected text.</p>\n<p>Continue to the embedded video, then use those observations in the next knowledge check.</p>\n"
+          },
+          "subContentId": "9095b35e-d1e3-51d6-bfd2-9113c77808f4",
+          "metadata": {
+            "title": "Observe: Decoding in isolation and in text",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 8,
+        "contentId": 7
+      },
+      {
+        "type": {
+          "library": "H5P.Video 1.6",
+          "params": {
+            "sources": [
+              {
+                "path": "https://www.youtube.com/watch?v=wsCMTpbiKq0",
+                "mime": "video/YouTube"
+              }
+            ],
+            "visuals": {
+              "fit": true,
+              "controls": true
+            },
+            "playback": {
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "subContentId": "083dacff-b6f3-5994-a7c6-225ed6bb68c8",
+          "metadata": {
+            "title": "Video 13 — Decodable Words in Isolation and in Text",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 9,
+        "contentId": 8
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>A group can identify individual phonemes but several students cannot blend those sounds into a CVC word. The teacher has modeled blending and guided practice, but the struggle continues.<br><br>**What adjustment preserves the learning objective while improving instruction?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Repeat the same task at the same pace for more practice.",
+                  "nextContentId": 10,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "More practice alone is insufficient when students repeatedly make the same errors. Their response suggests that the level or type of instructional support must change."
+                  }
+                },
+                {
+                  "text": "B. Return to a more supported blending model, guide attempts, give immediate feedback, and gradually fade support.",
+                  "nextContentId": 12,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "This response preserves the target (blending) and changes support in response to evidence, with a clear path toward independence."
+                  }
+                },
+                {
+                  "text": "C. Replace blending with letter-identification activities.",
+                  "nextContentId": 11,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "These students already identify the individual phonemes. The documented gap is blending, not simply identifying letters."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "bd7b0202-bd85-539e-b4fe-d4295dfa3b59",
+          "metadata": {
+            "title": "Knowledge check 2 — Select a scaffold",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 9
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>More practice alone is insufficient when students repeatedly make the same errors. Their response suggests that the level or type of instructional support must change.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "52f220f7-4a36-5d6b-a3b2-6414af6a87d8",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 9,
+        "contentId": 10
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — C</h2>\n<p>These students already identify the individual phonemes. The documented gap is blending, not simply identifying letters.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "542b9ebe-bef3-5079-a341-adc544888d54",
+          "metadata": {
+            "title": "Instructional consequence — C",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 9,
+        "contentId": 11
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Pause and reason — Scaffolding</h2>\n<p>Identify one scaffold you could add tomorrow to a blending lesson, and state <strong>what observable student response would tell you to begin withdrawing it</strong>.</p>\n<p><strong>Teaching point:</strong> Change the support based on performance before abandoning a well-chosen objective.</p>\n"
+          },
+          "subContentId": "a7556601-5a15-52c0-a52b-c1fb0706ec5c",
+          "metadata": {
+            "title": "Pause and reason — Scaffolding",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 13,
+        "contentId": 12
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Part 2 — Watch in action: Independent literacy centers</h2>\n<p>While the teacher provides instruction to a small group, classmates need productive independent practice.</p>\n<p><strong>A meaningful independent activity should:</strong></p>\n<ul>\n<li>Reinforce a skill students have <strong>already been taught</strong>.</li>\n<li>Match their learning needs and be manageable with minimal assistance.</li>\n<li>Give purposeful opportunities to apply and practice that skill.</li>\n<li>Produce observable evidence of what students can do.</li>\n</ul>\n<p>Do not mistake a quiet or attractive activity for an effective literacy activity. Untaught content should not be assigned as an independent center and expected to teach itself.</p>\n"
+          },
+          "subContentId": "1e16e605-6d83-5b6d-a65d-f09fc30ff309",
+          "metadata": {
+            "title": "Part 2 — Watch in action: Independent literacy centers",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 14,
+        "contentId": 13
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Observe: First-grade reading centers</h2>\n<p><strong>IES Grade K–1 Module 3, Video 20 — “Student Reading Centers in Action [Grade 1]” (9:03)</strong></p>\n<p>Observe (1) the reading tasks students complete; (2) how they know what to do; (3) conditions supporting independent engagement; and (4) what evidence you would need to evaluate whether learning is occurring.</p>\n<p>Continue to the embedded video.</p>\n"
+          },
+          "subContentId": "bc2feb01-0a56-5f5d-a6c8-772738ac9288",
+          "metadata": {
+            "title": "Observe: First-grade reading centers",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 15,
+        "contentId": 14
+      },
+      {
+        "type": {
+          "library": "H5P.Video 1.6",
+          "params": {
+            "sources": [
+              {
+                "path": "https://www.youtube.com/watch?v=DBSHZnP-oag",
+                "mime": "video/YouTube"
+              }
+            ],
+            "visuals": {
+              "fit": true,
+              "controls": true
+            },
+            "playback": {
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "subContentId": "a42e6620-c9a5-5cad-8cd9-9e949cd21a31",
+          "metadata": {
+            "title": "Video 20 — Student Reading Centers in Action (Grade 1)",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 16,
+        "contentId": 15
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Interpret the center observations</h2>\n<p>Before continuing, respond in your notes:</p>\n<ol>\n<li>Name one literacy skill students appeared to practice.</li>\n<li>Identify one routine that supported independent engagement.</li>\n<li>Specify what student work or behavior would <strong>actually demonstrate learning</strong>, beyond compliance or quietness.</li>\n</ol>\n<p><strong>Critical distinction:</strong> A well-run classroom routine is necessary for a productive literacy block, but it is not a substitute for instructional effectiveness.</p>\n"
+          },
+          "subContentId": "fb152190-4a5f-597c-a618-26d0330cc304",
+          "metadata": {
+            "title": "Interpret the center observations",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 17,
+        "contentId": 16
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Learn: Monitor, evaluate, and adjust</h2>\n<p>Teaching decisions continue after the lesson begins. Monitor students to determine whether the target skill is developing and whether instruction should change.</p>\n<p>Collect evidence that can inform:</p>\n<ul>\n<li>Progress toward the stated objective.</li>\n<li>The need for more or less scaffolding.</li>\n<li>Which students still share a useful instructional target.</li>\n<li>Changes to lesson content or independent activities.</li>\n</ul>\n<p><strong>Groups are flexible.</strong> Do not keep students in a lesson they have mastered, or move them solely because time has passed. Make grouping and next-step decisions from performance evidence.</p>\n"
+          },
+          "subContentId": "d533f3cb-47d4-5345-bac6-f3c17c5d22c2",
+          "metadata": {
+            "title": "Learn: Monitor, evaluate, and adjust",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 18,
+        "contentId": 17
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Observe: A teacher evaluates student centers</h2>\n<p><strong>IES Grade K–1 Module 3, Video 21 — “Teacher Reflects on Student Centers [Grade 1]” (6:25)</strong></p>\n<p>Consider: What does the teacher notice about student work? How does observing centers help the teacher judge whether activities work? Which parts of the classroom system and the instruction might require modification?</p>\n"
+          },
+          "subContentId": "8ca1c59f-92f5-5917-9d32-0a38e4aad50f",
+          "metadata": {
+            "title": "Observe: A teacher evaluates student centers",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 19,
+        "contentId": 18
+      },
+      {
+        "type": {
+          "library": "H5P.Video 1.6",
+          "params": {
+            "sources": [
+              {
+                "path": "https://www.youtube.com/watch?v=er3hKc_WDbo",
+                "mime": "video/YouTube"
+              }
+            ],
+            "visuals": {
+              "fit": true,
+              "controls": true
+            },
+            "playback": {
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "subContentId": "cf14fb8f-354e-527c-9b22-edba045f5eb0",
+          "metadata": {
+            "title": "Video 21 — Teacher Reflects on Student Centers (Grade 1)",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 20,
+        "contentId": 19
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Video reflection — From observation to change</h2>\n<p>In your response document, identify <strong>one observation you would collect</strong>, <strong>one plausible instructional adjustment</strong>, and <strong>the evidence you would seek next</strong> to see whether that adjustment helped.</p>\n<p>These observations will inform your decisions in four classroom challenges.</p>\n"
+          },
+          "subContentId": "247163d7-1159-5a1c-96c6-5a302989bbfd",
+          "metadata": {
+            "title": "Video reflection — From observation to change",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 21,
+        "contentId": 20
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Part 3 — Apply: You are now responsible for the literacy block</h2>\n<p>Each challenge presents an authentic classroom dilemma.</p>\n<p>Read the student evidence and choose the most instructionally defensible response. Your answer has consequences: an unproductive choice leads to an instructional reset; a stronger choice moves you forward.</p>\n<p>After each successful decision, record a short written rationale for your final assignment.</p>\n"
+          },
+          "subContentId": "a2893b02-71d7-59cb-8374-de70713a35d6",
+          "metadata": {
+            "title": "Part 3 — Apply: You are now responsible for the literacy block",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 22,
+        "contentId": 21
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Challenge 1 — The group that is not making progress</h2>\n<p>You teach four first graders to decode CVC words. After three lessons and guided practice:</p>\n<ul>\n<li>Two students accurately decode the practice words.</li>\n<li>One student guesses based on the first letter.</li>\n<li>One decodes isolated words but struggles to read those words in sentences.</li>\n</ul>\n<p>Tomorrow you have another small-group lesson scheduled.</p>\n"
+          },
+          "subContentId": "4df8d011-97e0-5b8f-9b26-54e5ffee60c2",
+          "metadata": {
+            "title": "Challenge 1 — The group that is not making progress",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 23,
+        "contentId": 22
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>**Which next step is strongest given these error patterns?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Keep the group together for another identical CVC lesson because everyone began with the same need.",
+                  "nextContentId": 24,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Initial grouping does not justify repeating a lesson that is now too easy for some students and insufficiently targeted for others."
+                  }
+                },
+                {
+                  "text": "B. Immediately place all four students into separate groups because they now perform differently.",
+                  "nextContentId": 25,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Different performance does not automatically demand four separate groups. Determine whether a shared instructional focus is still meaningful before regrouping."
+                  }
+                },
+                {
+                  "text": "C. Analyze individual error patterns, decide whether the target still fits, and adjust grouping and scaffolds on that basis.",
+                  "nextContentId": 26,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "This choice uses observed evidence to decide whether to maintain, modify, or replace a shared instructional target."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "e49db90c-25e2-5d2c-b74d-e2a02a331310",
+          "metadata": {
+            "title": "Decision 1 — What do you teach tomorrow?",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 23
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>Initial grouping does not justify repeating a lesson that is now too easy for some students and insufficiently targeted for others.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "a94f25db-9622-57e5-83e2-a099bc32a03d",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 23,
+        "contentId": 24
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — B</h2>\n<p>Different performance does not automatically demand four separate groups. Determine whether a shared instructional focus is still meaningful before regrouping.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "918f27fa-1dbb-58d3-87b9-287f59f55781",
+          "metadata": {
+            "title": "Instructional consequence — B",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 23,
+        "contentId": 25
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Decision 1 — Explain your instructional response</h2>\n<p>Write brief notes: Which students might continue together? Who needs a different target? Who requires more or less scaffolding? What would you record during tomorrow’s instruction?</p>\n<p>For example, track whole-word blending versus first-letter guessing and word accuracy in connected text. <strong>Do not presume that isolated-word mastery equals transfer.</strong></p>\n"
+          },
+          "subContentId": "65f38e7c-6fbc-5519-9f64-a4c2b68c45b4",
+          "metadata": {
+            "title": "Decision 1 — Explain your instructional response",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 27,
+        "contentId": 26
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Challenge 2 — The independent activity problem</h2>\n<p>You teach a teacher-led small group on vowel patterns while other first graders complete literacy centers.</p>\n<p>One independent task requires students to read words containing a vowel pattern that has not been explicitly taught. Students guess, copy, and wait for help. Only a few minutes remain before the next rotation.</p>\n"
+          },
+          "subContentId": "4dbb160c-b4cd-5e9a-8c92-e003fc7f8adc",
+          "metadata": {
+            "title": "Challenge 2 — The independent activity problem",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 28,
+        "contentId": 27
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>**What is the most instructionally responsible immediate change?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Keep the task but post a visual example and more detailed written directions.",
+                  "nextContentId": 29,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Clear directions are valuable, but an example alone is not necessarily equivalent to explicit instruction and supported practice with an untaught pattern."
+                  }
+                },
+                {
+                  "text": "B. Substitute purposeful practice of a previously taught skill and teach the new vowel pattern explicitly later.",
+                  "nextContentId": 31,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "This protects the center’s role as independent reinforcement and reserves new content for teacher-led explanation and guidance."
+                  }
+                },
+                {
+                  "text": "C. Ask students to work with partners on the unfamiliar pattern.",
+                  "nextContentId": 30,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Peer work may be productive when students have learned the target skill, but partners can reinforce incorrect strategies if neither knows the pattern."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "2d6ef2d5-b608-5f3c-9aac-29b87ebe2fca",
+          "metadata": {
+            "title": "Decision 2 — Repair the independent center",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 28
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>Clear directions are valuable, but an example alone is not necessarily equivalent to explicit instruction and supported practice with an untaught pattern.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "438338cd-e5b5-5940-a04b-14d2bbfd3bf7",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 28,
+        "contentId": 29
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — C</h2>\n<p>Peer work may be productive when students have learned the target skill, but partners can reinforce incorrect strategies if neither knows the pattern.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "c71a08d3-fd53-5c36-a142-3b6cb84f06ca",
+          "metadata": {
+            "title": "Instructional consequence — C",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 28,
+        "contentId": 30
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Decision 2 — Design a replacement center</h2>\n<p>Describe one suitable replacement task. Include <strong>target skill</strong>, <strong>what students do</strong>, <strong>why it is independently manageable</strong>, and <strong>evidence the teacher can review later</strong>.</p>\n<p>A usable example might be sorting and reading previously taught short-vowel CVC word cards, then recording a sample of accurately read words.</p>\n"
+          },
+          "subContentId": "5cef35d6-2d25-553b-85e1-0a3934e5ea62",
+          "metadata": {
+            "title": "Decision 2 — Design a replacement center",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 32,
+        "contentId": 31
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Challenge 3 — The lesson that is not working</h2>\n<p>Your phonemic awareness group can segment two-phoneme words but repeatedly errs on three-phoneme words. You notice that you are giving the same correction over and over.</p>\n"
+          },
+          "subContentId": "124c6a59-a800-5a85-addd-f4979d88b7d5",
+          "metadata": {
+            "title": "Challenge 3 — The lesson that is not working",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 33,
+        "contentId": 32
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>**What should you do next?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Continue with the three-phoneme words without changing instruction; challenge will build proficiency.",
+                  "nextContentId": 34,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Repeated errors at a fixed level of complexity indicate a need to change scaffolding or sequence, not simply to maintain the same difficulty."
+                  }
+                },
+                {
+                  "text": "B. Return briefly to successful two-phoneme examples, explicitly model and guide segmenting, and reintroduce three-phoneme words as performance improves.",
+                  "nextContentId": 36,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "This response adjusts complexity and teaching support while retaining the original phonemic segmentation objective."
+                  }
+                },
+                {
+                  "text": "C. Assign a worksheet of easy examples and switch to a different skill next time.",
+                  "nextContentId": 35,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Independent worksheets do not replace targeted oral modeling, guided responses, and feedback for a phonemic-awareness difficulty."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "c22c99df-59bf-5976-9b02-42b410a50d50",
+          "metadata": {
+            "title": "Decision 3 — Respond to repeated errors",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 33
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>Repeated errors at a fixed level of complexity indicate a need to change scaffolding or sequence, not simply to maintain the same difficulty.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "b7450128-9e38-5052-8110-65c292a2aa87",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 33,
+        "contentId": 34
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — C</h2>\n<p>Independent worksheets do not replace targeted oral modeling, guided responses, and feedback for a phonemic-awareness difficulty.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "1ff2526a-d95b-5ff4-9eaa-0e6fd6894096",
+          "metadata": {
+            "title": "Instructional consequence — C",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 33,
+        "contentId": 35
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Decision 3 — Sequence the scaffold</h2>\n<p>Specify: (1) what the teacher models; (2) how students practice with guidance; (3) what data would indicate readiness for three-phoneme items; and (4) the next response if errors persist.</p>\n<p><strong>Teaching point:</strong> Preserve the instructional goal while changing the amount of support and task complexity.</p>\n"
+          },
+          "subContentId": "d0988b3f-4634-5d7e-9b0a-db7a43fd8df1",
+          "metadata": {
+            "title": "Decision 3 — Sequence the scaffold",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 37,
+        "contentId": 36
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Challenge 4 — The student who seems ready</h2>\n<p>A student in a CVC decoding group has accurately read isolated word lists for several lessons. You are considering moving the student into a more advanced phonics group. The recent assessment measured only isolated word reading; you have not observed the student reading connected text containing those words.</p>\n"
+          },
+          "subContentId": "6374cf04-753e-5921-943b-292fc966bcdc",
+          "metadata": {
+            "title": "Challenge 4 — The student who seems ready",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 38,
+        "contentId": 37
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>**What evidence-based step comes next?**</p>",
+              "alternatives": [
+                {
+                  "text": "A. Move the student immediately, because isolated-word accuracy proves full mastery.",
+                  "nextContentId": 39,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "Word-list accuracy is useful but does not necessarily demonstrate transfer into connected text, where word identification demands can change."
+                  }
+                },
+                {
+                  "text": "B. Keep the student in the same group until the next formal assessment period for consistency.",
+                  "nextContentId": 40,
+                  "feedback": {
+                    "title": "Reconsider the evidence",
+                    "subtitle": "An arbitrary assessment schedule should not delay a well-supported adjustment to a student’s instructional target."
+                  }
+                },
+                {
+                  "text": "C. Collect evidence of accurate decoding in connected text and use it alongside current results to determine the next target.",
+                  "nextContentId": 41,
+                  "feedback": {
+                    "title": "Evidence-based choice",
+                    "subtitle": "The decision is aligned with the evidence needed: applying a word-reading skill in a context that matters for future instruction."
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "72c95897-07cd-5621-a845-d095b5fd876c",
+          "metadata": {
+            "title": "Decision 4 — Is the student ready to move?",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 38
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — A</h2>\n<p>Word-list accuracy is useful but does not necessarily demonstrate transfer into connected text, where word identification demands can change.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "2c87d398-9529-506a-ab37-c8b89501d407",
+          "metadata": {
+            "title": "Instructional consequence — A",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 38,
+        "contentId": 39
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Instructional consequence — B</h2>\n<p>An arbitrary assessment schedule should not delay a well-supported adjustment to a student’s instructional target.</p>\n<p><strong>Instructional reset:</strong> Examine the student evidence again. Return to the decision and reconsider which action best addresses the skill need.</p>\n"
+          },
+          "subContentId": "1f4a0bd1-3982-5c24-9301-20ab2b260cd6",
+          "metadata": {
+            "title": "Instructional consequence — B",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": 38,
+        "contentId": 40
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Decision 4 — Specify your evidence</h2>\n<p>Describe two feasible checks: for example, a short unfamiliar decodable passage containing the target patterns and an oral reading record that notes accuracy and error types.</p>\n<p>Explain how those findings would change <strong>group placement, next lesson objective, and task complexity</strong>.</p>\n"
+          },
+          "subContentId": "b856e115-0567-56d1-9e11-22f6c505a877",
+          "metadata": {
+            "title": "Decision 4 — Specify your evidence",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 42,
+        "contentId": 41
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Part 4 — Final application: A 45-minute differentiated literacy block</h2>\n<p><strong>Your classroom evidence</strong></p>\n<table>\n<thead>\n<tr>\n  <th>Group</th>\n  <th>Current instructional evidence</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td><strong>A</strong></td>\n  <td>Students know many letter sounds but struggle to blend three phonemes into words.</td>\n</tr>\n<tr>\n  <td><strong>B</strong></td>\n  <td>Students decode CVC words in isolation but need help applying decoding in connected text.</td>\n</tr>\n<tr>\n  <td><strong>C</strong></td>\n  <td>Students read familiar decodable text accurately and need further fluency and comprehension practice.</td>\n</tr>\n</tbody>\n</table>\n<p>You teach one group at a time while the other students complete independent literacy activities.</p>\n<p><strong>Design a 45-minute block</strong> that includes a transition and sufficient time for all three teacher-led groups, plus independent work aligned with skills students have already learned. Use your response document to produce the plan.</p>\n"
+          },
+          "subContentId": "c74018f7-a1c9-59e0-9e88-20991045f654",
+          "metadata": {
+            "title": "Part 4 — Final application: A 45-minute differentiated literacy block",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 43,
+        "contentId": 42
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Plan component 1 — Teacher-led instruction</h2>\n<p>For <strong>Groups A, B, and C</strong>, provide:</p>\n<ol>\n<li>Precise instructional objective and reading skill.</li>\n<li>Materials aligned to that skill.</li>\n<li>Your <strong>I Do</strong> explanation and modeling.</li>\n<li><strong>We Do</strong> guided response opportunities and specific feedback.</li>\n<li><strong>You Do</strong> application and evidence that the student is ready for greater independence.</li>\n</ol>\n<p>Provide a workable allocation of the 45 minutes across rotations and transitions. Avoid asking every group to complete the same decodable-text activity.</p>\n"
+          },
+          "subContentId": "6db815da-0a55-507b-b17d-35a031cba37c",
+          "metadata": {
+            "title": "Plan component 1 — Teacher-led instruction",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 44,
+        "contentId": 43
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Plan component 2 — Independent literacy activities</h2>\n<p>Design <strong>at least two</strong> meaningful independent activities. For each:</p>\n<ul>\n<li>Name the reading skill being reinforced.</li>\n<li>Describe exactly what students do.</li>\n<li>Explain why students can complete it without first learning a new skill.</li>\n<li>Connect it to previously taught instruction.</li>\n<li>Identify the resulting student work or performance evidence.</li>\n</ul>\n<p>Be specific about how activities differ to remain useful for students from Groups A, B, and C.</p>\n"
+          },
+          "subContentId": "a946e664-820e-5b4b-ac78-85689805c418",
+          "metadata": {
+            "title": "Plan component 2 — Independent literacy activities",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 45,
+        "contentId": 44
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Plan component 3 — Progress monitoring</h2>\n<p>Explain what you would observe and record as groups work, including at least one directly observable indicator of the target skill for each group.</p>\n<p>State:</p>\n<ul>\n<li>What work or oral responses you would examine.</li>\n<li>What evidence counts as meeting the objective.</li>\n<li>What pattern would justify increasing or decreasing scaffolds.</li>\n<li>What new evidence would justify revising group composition or the next lesson.</li>\n</ul>\n"
+          },
+          "subContentId": "d046bc1b-2ba4-5a40-8163-25e6a68a9374",
+          "metadata": {
+            "title": "Plan component 3 — Progress monitoring",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 46,
+        "contentId": 45
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Plan component 4 — Respond to a realistic classroom problem</h2>\n<p>Choose a plausible problem, such as repeated blending errors, students unable to follow independent center routines, or a child who has mastered the group’s objective.</p>\n<p>Explain your immediate response <strong>and</strong> how the revised activity maintains the original learning purpose.</p>\n<p>A plan is not complete if it allocates time but does not specify how student performance affects instruction.</p>\n"
+          },
+          "subContentId": "f5a303dd-e50c-5741-9bc2-76b7741aceab",
+          "metadata": {
+            "title": "Plan component 4 — Respond to a realistic classroom problem",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 47,
+        "contentId": 46
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Final reflection — Five decisions that matter</h2>\n<p>Respond with concrete examples from the simulation:</p>\n<ol>\n<li>Why base instructional grouping on specific reading needs instead of broad reading levels alone?</li>\n<li>How can a center be engaging without promoting useful literacy learning?</li>\n<li>What is the relationship among explicit instruction, scaffolding, and independent practice?</li>\n<li>Why should ongoing performance evidence change grouping and instruction?</li>\n<li>Name one instructional decision you would approach differently now.</li>\n</ol>\n<p><strong>Submission:</strong> Your 45-minute literacy block plan and these five reflections, through the separate Canvas assignment. Branching Scenario alone does not save extended written responses.</p>\n"
+          },
+          "subContentId": "aadab2c3-03ca-5ac1-8df0-e90e9d2e6abf",
+          "metadata": {
+            "title": "Final reflection — Five decisions that matter",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Continue",
+        "nextContentId": 48,
+        "contentId": 47
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Completion and references</h2>\n<p><strong>Simulation complete.</strong> You have practiced reading student evidence, choosing scaffolds, strengthening independent centers, and revising instruction based on progress.</p>\n<p>Submit your completed 45-minute literacy block plan and final reflection in Canvas.</p>\n<p><strong>Foundational source:</strong> U.S. Department of Education, Institute of Education Sciences, Regional Educational Laboratory. <em>Toolkit for Differentiating Reading Instruction for Grades K–3,</em> Grade K–1, Module 3: Plan and Implement Small Group Differentiated Instruction and Manage the Classroom.</p>\n<p><strong>Video sources (IES Module 3):</strong> Video 13 (decodable words), Video 20 (first-grade student reading centers), and Video 21 (teacher reflection).</p>\n<p>Reference page: https://ies.ed.gov/ncee/rel/differentiate-reading-k-3/grade-k-1-mod-3</p>\n<p>This simulation adapts the source’s instructional themes and links to its videos; the fictional classroom cases and branching questions are instructional adaptations.</p>\n"
+          },
+          "subContentId": "39c7b8e5-bcd8-5ae3-90c2-8ae862654e68",
+          "metadata": {
+            "title": "Completion and references",
+            "license": "U"
+          }
+        },
+        "showContentTitle": true,
+        "proceedButtonText": "Try this decision again",
+        "nextContentId": -1,
+        "contentId": 48
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "no-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": false,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin the simulation",
+      "endScreenButtonText": "Restart simulation",
+      "backButtonText": "Back"
+    }
+  }
+}

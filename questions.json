@@ -1,0 +1,163 @@
+{
+  "1": [
+    {
+      "id": "s1a",
+      "prompt": "A student can identify individual phonemes but cannot blend /m/ /\u0103/ /p/ into a spoken word. What is the most useful next instructional move?",
+      "options": [
+        "Assign a comprehension worksheet",
+        "Model continuous blending, then fade support",
+        "Increase independent silent reading",
+        "Teach passage summarization"
+      ],
+      "correct": 1,
+      "feedback": "Model and guide the missing blending skill before asking for independent application."
+    },
+    {
+      "id": "s1b",
+      "prompt": "Two students both struggle with reading, but one cannot blend sounds and the other reads words accurately without understanding the text. What should guide grouping?",
+      "options": [
+        "A shared general reading label",
+        "The same worksheet for both",
+        "Specific observed skill needs and flexible objectives",
+        "Alphabetical seating"
+      ],
+      "correct": 2,
+      "feedback": "Instructional grouping should respond to specific evidence, not broad labels."
+    }
+  ],
+  "2": [
+    {
+      "id": "s2a",
+      "prompt": "During centers, students repeatedly ask the teacher what to do, interrupting small-group instruction. What should the teacher examine first?",
+      "options": [
+        "Whether tasks were explicitly taught and are independently manageable",
+        "Whether the center has colorful materials",
+        "Whether students can stay silent for the whole block",
+        "Whether every center has identical tasks"
+      ],
+      "correct": 0,
+      "feedback": "Independence depends on taught routines and tasks students can actually complete."
+    },
+    {
+      "id": "s2b",
+      "prompt": "A center appears busy, but students repeatedly practice words incorrectly. What evidence should inform the next change?",
+      "options": [
+        "Only the number of completed pages",
+        "Only student enjoyment",
+        "Observed accuracy, error patterns, and need for support",
+        "Whether the room is quiet"
+      ],
+      "correct": 2,
+      "feedback": "Engagement alone does not demonstrate accurate or productive literacy practice."
+    }
+  ],
+  "3": [
+    {
+      "id": "s3a",
+      "prompt": "After a lesson, two students consistently decode CVC words accurately while two still confuse medial vowels. What is the strongest next step?",
+      "options": [
+        "Repeat the exact lesson for everyone",
+        "Use the error evidence to adjust instruction and grouping",
+        "Move everyone to multisyllabic words",
+        "Stop monitoring until the unit test"
+      ],
+      "correct": 1,
+      "feedback": "Different error patterns call for responsive instruction and flexible grouping."
+    },
+    {
+      "id": "s3b",
+      "prompt": "A learner reads isolated words accurately. Before increasing text difficulty, what additional evidence is most useful?",
+      "options": [
+        "Speed at copying a word list",
+        "Accuracy and meaning while reading connected text",
+        "The number of books on a shelf",
+        "Whether a classmate reads faster"
+      ],
+      "correct": 1,
+      "feedback": "Transfer to connected text helps show whether isolated decoding is ready for extension."
+    }
+  ],
+  "4": [
+    {
+      "id": "s4a",
+      "prompt": "Which plan best supports independent work during a teacher-led group?",
+      "options": [
+        "Introduce several unfamiliar tasks and hope students collaborate",
+        "Assign identical difficult work to every learner",
+        "Use previously taught, accessible tasks with clear routines and accountability",
+        "Ask students to interrupt the teacher whenever confused"
+      ],
+      "correct": 2,
+      "feedback": "Independent work should be meaningful, practiced, and manageable without constant teacher intervention."
+    },
+    {
+      "id": "s4b",
+      "prompt": "Which progress-monitoring note is most actionable?",
+      "options": [
+        "Group B did okay today",
+        "Most students seemed happy",
+        "Three of four students blended 8/10 CVC words; one confused short /e/ and /i/",
+        "The lesson lasted 15 minutes"
+      ],
+      "correct": 2,
+      "feedback": "Specific observable evidence supports the next instructional decision."
+    }
+  ],
+  "final": [
+    {
+      "id": "m1",
+      "prompt": "A student can segment /s/ /\u0103/ /t/ but cannot blend the sounds. Which immediate lesson is most responsive?",
+      "options": [
+        "Guided oral blending with teacher modeling",
+        "Independent passage retelling",
+        "Advanced vocabulary sorting",
+        "Silent reading for the entire block"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "m2",
+      "prompt": "A center produces completed worksheets, but repeated decoding errors go uncorrected. What is the best next move?",
+      "options": [
+        "Count the pages as mastery",
+        "Increase worksheet length",
+        "Observe errors, reteach the needed skill, and adjust the center",
+        "Remove all independent centers permanently"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "m3",
+      "prompt": "Three students are grouped because all score below benchmark, but their errors differ substantially. What should determine tomorrow\u2019s groups?",
+      "options": [
+        "The same below-benchmark label",
+        "Specific skill evidence and instructional targets",
+        "Their preferred seats",
+        "A fixed grouping schedule for the semester"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "m4",
+      "prompt": "A student accurately reads CVC words on cards. What would best establish readiness for more complex reading?",
+      "options": [
+        "One additional word-list score only",
+        "Teacher impression alone",
+        "The student\u2019s age",
+        "Accurate, meaningful reading of appropriate connected text"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "m5",
+      "prompt": "Which 45-minute literacy plan is most defensible?",
+      "options": [
+        "One teacher-led group, unfamiliar centers, no evidence collection",
+        "Flexible targeted groups, taught independent tasks, and brief progress checks",
+        "Identical instruction and activities regardless of need",
+        "Only independent work so the teacher can grade"
+      ],
+      "correct": 1
+    }
+  ]
+}
