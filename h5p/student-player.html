@@ -8,5 +8,7 @@
 <script>
 const p=document.getElementById('player'),err=document.getElementById('error');
 p.addEventListener('error',e=>{err.hidden=false;err.textContent='H5P playback error: '+(e.detail?.message||JSON.stringify(e.detail)||'unknown error')});
-customElements.whenDefined('h5p-player').then(()=>p.setAttribute('src','https://natalie-beach.github.io/literacy-teacher-simulation/original-scenario.h5p'));
+const part=Number(new URLSearchParams(location.search).get('part'));
+if(!Number.isInteger(part)||part<1||part>4){err.hidden=false;err.textContent='Invalid H5P section.'}
+else customElements.whenDefined('h5p-player').then(()=>p.setAttribute('src',`https://natalie-beach.github.io/literacy-teacher-simulation/literacy-part-${part}.h5p`));
 </script></body></html>
