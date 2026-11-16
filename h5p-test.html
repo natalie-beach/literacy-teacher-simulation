@@ -2,8 +2,8 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>H5P Player Test | Literacy Teacher</title>
 <style>body{font-family:Arial,sans-serif;max-width:1000px;margin:30px auto;padding:0 18px;color:#251b30}header{background:#2b0f46;color:white;padding:24px;border-radius:12px}h1{margin:0 0 8px}.notice{background:#f4eff9;padding:15px;margin:20px 0;border-radius:8px}h5p-player{display:block;min-height:400px}a{color:#52248a}</style>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-offline-player@1.5.1/dist/h5p-player.js"></script>
-</head><body><header><h1>Original H5P Playback Test</h1><div>Private instructor test page · no grades submitted</div></header>
-<div class="notice">This is a separate player test. It does not replace the working course or change Google Sheets. If the player does not load, see README-TEST.txt for the missing service-worker setup and troubleshooting.</div>
-<h5p-player src="./original-scenario.h5p" libraries="pack" sw="./h5p-sw.js" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player>
+</head><body><header><h1>Original H5P Playback Test</h1><div>Instructor playback test · no grades submitted</div></header>
+<div class="notice">This is a separate player test. It does not replace the working course or change Google Sheets. H5P libraries are now hosted locally to avoid the previous CORS errors. If the player remains blank, check the browser console.</div>
+<h5p-player src="./original-scenario.h5p" libraries="pack" pack-base="./h5p-libraries/" sw="./h5p-sw.js" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player>
 <p><a href="./index.html">Back to current simulation</a></p>
 </body></html>
