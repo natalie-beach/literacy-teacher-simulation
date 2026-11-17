@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Think Like a Literacy Teacher · Week 9 H5P</title>
+<style>html,body{margin:0;background:#fff;font-family:Arial,sans-serif}h5p-player{display:block;min-height:650px}#error{color:#a02235;padding:12px;white-space:pre-wrap}</style>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-offline-player@1.5.1/dist/h5p-player.js"></script></head>
+<body><div id="error" role="alert" hidden></div>
+<h5p-player id="player" libraries="pack" pack-base="https://natalie-beach.github.io/literacy-teacher-simulation/h5p-libraries/parts/" sw="https://natalie-beach.github.io/literacy-teacher-simulation/h5p-sw.js" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player>
+<script>
+const p=document.getElementById('player'),err=document.getElementById('error');
+p.addEventListener('error',e=>{err.hidden=false;err.textContent='H5P playback error: '+(e.detail?.message||JSON.stringify(e.detail)||'unknown error')});
+const part=Number(new URLSearchParams(location.search).get('part'));
+if(!Number.isInteger(part)||part<1||part>4){err.hidden=false;err.textContent='Invalid H5P section.'}
+else customElements.whenDefined('h5p-player').then(()=>p.setAttribute('src',`https://natalie-beach.github.io/literacy-teacher-simulation/week-9/segment-${part}.h5p`));
+</script></body></html>

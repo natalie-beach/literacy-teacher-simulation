@@ -1,0 +1,155 @@
+{
+  "1": [
+    {
+      "prompt": "Why should Ms. Bennett avoid automatically grouping Eli, Maya, and Amina together?",
+      "options": [
+        "Their needs differ, so grouping should reflect specific instructional evidence.",
+        "Small groups are always ineffective.",
+        "All three need the same decoding lesson.",
+        "A single screening score determines every placement."
+      ],
+      "correct": 0,
+      "feedback": "Use observed reading patterns to distinguish instructional needs."
+    },
+    {
+      "prompt": "Eli substitutes a word that makes sense but does not match the print. What is the best initial coaching move?",
+      "options": [
+        "Ask him to guess again from the sentence.",
+        "Tell him the word immediately.",
+        "Direct attention to graphemes and decoding, then confirm meaning.",
+        "Skip the word to maintain pace."
+      ],
+      "correct": 2,
+      "feedback": "Word identification should be anchored in print, with meaning used to confirm."
+    }
+  ],
+  "2": [
+    {
+      "prompt": "Maya struggles to decode unfamiliar words but understands text read aloud. What is the strongest instructional response?",
+      "options": [
+        "Provide systematic decoding instruction with supported application in text.",
+        "Assign only more independent reading.",
+        "Focus exclusively on comprehension questions.",
+        "Avoid explicit word-level teaching."
+      ],
+      "correct": 0,
+      "feedback": "Her listening comprehension is a strength; decoding requires direct instruction."
+    },
+    {
+      "prompt": "When Maya reads \u201cslip\u201d as \u201csip,\u201d what feedback best supports learning?",
+      "options": [
+        "Say \u201cAlmost!\u201d and move on.",
+        "Supply the correct word with no explanation.",
+        "Tell her to use context to guess.",
+        "Point out the missing /l/ and guide her to blend all sounds."
+      ],
+      "correct": 3,
+      "feedback": "Specific, immediate feedback targets the actual grapheme-phoneme error."
+    }
+  ],
+  "3": [
+    {
+      "prompt": "What is a stronger way to teach the high-frequency word \u201csaid\u201d than visual memorization alone?",
+      "options": [
+        "Wait until all irregular words can be decoded regularly.",
+        "Analyze its sound-spelling pattern and practice mapping it in words and text.",
+        "Use only flashcard exposure.",
+        "Avoid reading it in connected text."
+      ],
+      "correct": 1,
+      "feedback": "Orthographic mapping is supported by attention to phonemes and graphemes."
+    },
+    {
+      "prompt": "Amina reads words accurately but has difficulty understanding informational text. What should the teacher prioritize?",
+      "options": [
+        "Put her in the decoding group.",
+        "Replace all grade-level texts with much easier ones.",
+        "Teach vocabulary, knowledge, and comprehension processes while retaining access to appropriate text.",
+        "Assume fluency practice will resolve every difficulty."
+      ],
+      "correct": 2,
+      "feedback": "Accurate decoding and comprehension needs should be addressed distinctly."
+    }
+  ],
+  "4": [
+    {
+      "prompt": "Noah reads accurately but without expression. What is the most defensible fluency routine?",
+      "options": [
+        "Repeated timed readings focused only on speed.",
+        "Teacher modeling and supported oral rereading with attention to phrasing and meaning.",
+        "Move him permanently to much easier texts.",
+        "Eliminate oral reading."
+      ],
+      "correct": 1,
+      "feedback": "Fluency includes accuracy, automaticity, and prosody in service of meaning."
+    },
+    {
+      "prompt": "What should Ms. Bennett do with the evidence collected during the consultation?",
+      "options": [
+        "Use it to adjust instruction now, and gather further evidence before making formal placement decisions.",
+        "Diagnose and assign intervention tiers immediately.",
+        "Wait for a formal evaluation before adjusting teaching.",
+        "Use the same intervention for all students."
+      ],
+      "correct": 0,
+      "feedback": "Responsive instruction can begin before a formal decision; placement needs appropriate evidence."
+    }
+  ],
+  "final": [
+    {
+      "prompt": "Which principle best guides grouping Eli, Maya, and Amina?",
+      "options": [
+        "Group by their common grade level.",
+        "Group by demonstrated instructional need and revise with evidence.",
+        "Use one intervention for efficiency.",
+        "Assign based on a single impression."
+      ],
+      "correct": 1,
+      "feedback": "Instructional grouping should be driven by specific evidence."
+    },
+    {
+      "prompt": "When a reader substitutes a contextually plausible word for a printed word, what should instruction emphasize?",
+      "options": [
+        "Guessing from pictures.",
+        "Skipping challenging words.",
+        "Using only sentence meaning.",
+        "Accurate decoding from the print, followed by meaning confirmation."
+      ],
+      "correct": 3,
+      "feedback": "Print is the primary source for identifying words."
+    },
+    {
+      "prompt": "Which approach best addresses Maya\u2019s decoding difficulty?",
+      "options": [
+        "Explicit instruction in relevant sound-spelling patterns with guided practice.",
+        "More comprehension worksheets alone.",
+        "Independent reading without feedback.",
+        "Visual memorization of every word."
+      ],
+      "correct": 0,
+      "feedback": "Target the word-reading skill directly."
+    },
+    {
+      "prompt": "What is the most appropriate response to Amina\u2019s accurate word reading but weak understanding?",
+      "options": [
+        "Repeat decoding lessons regardless of evidence.",
+        "Teach only reading rate.",
+        "Support vocabulary, background knowledge, and comprehension in meaningful text.",
+        "Remove all informational text."
+      ],
+      "correct": 2,
+      "feedback": "Instruction should target comprehension while retaining text access."
+    },
+    {
+      "prompt": "What is the best professional conclusion from Ms. Bennett\u2019s classroom observations?",
+      "options": [
+        "She can adjust instruction now while collecting data to refine decisions.",
+        "The students all qualify for the same intervention tier.",
+        "Further evidence is unnecessary.",
+        "No instructional change is allowed before formal testing."
+      ],
+      "correct": 0,
+      "feedback": "Instructional decisions are iterative and evidence informed."
+    }
+  ]
+}
