@@ -1,1 +1,19 @@
-<!doctype html><html><head><meta charset="utf-8"><script type="module" src="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-offline-player@1.5.1/dist/h5p-player.js"></script><style>body{font:16px Arial;margin:15px}h5p-player{display:block;min-height:500px}</style></head><body><h5p-player id="p" libraries="pack" pack-base="../h5p-libraries/" sw="../h5p-sw.js" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player><script>let n=Number(new URLSearchParams(location.search).get('part'));if(n>=1&&n<=4)document.getElementById('p').setAttribute('src','segment-'+n+'.h5p');</script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Week 12 H5P player</title><script type="module" src="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-offline-player@1.5.1/dist/h5p-player.js"></script><style>body{font:16px Arial,sans-serif;margin:12px}h5p-player{display:block;min-height:450px}#error{padding:12px;color:#721c24;background:#f8d7da;display:none}</style></head><body><div id="error" role="alert"></div><h5p-player id="p" libraries="pack" assets-base="https://cdn.jsdelivr.net/npm/@missing-elements/h5p-runtime@1.0.1/dist/"></h5p-player><script>
+const root='/literacy-teacher-simulation/';
+const part=Number(new URLSearchParams(location.search).get('part'));
+const player=document.getElementById('p');
+const error=document.getElementById('error');
+function fail(message){error.style.display='block';error.textContent=message;}
+if(!Number.isInteger(part)||part<1||part>4)fail('Invalid H5P part.');
+else {
+  player.setAttribute('pack-base',root+'h5p-libraries/');
+  player.setAttribute('sw',root+'h5p-sw.js');
+  player.setAttribute('src',root+'week-12/segment-'+part+'.h5p');
+  Promise.all([
+    fetch(root+'week-12/segment-'+part+'.h5p').then(r=>{if(!r.ok)throw Error('Segment file: HTTP '+r.status)}),
+    fetch(root+'h5p-sw.js').then(r=>{if(!r.ok)throw Error('H5P service worker: HTTP '+r.status)}),
+    fetch(root+'h5p-libraries/').then(r=>{if(!r.ok)throw Error('H5P library folder: HTTP '+r.status)})
+  ]).catch(e=>fail('The H5P could not load: '+e.message));
+  setTimeout(()=>{if(!customElements.get('h5p-player'))fail('The H5P player script did not load. Check your network or browser console.');},8000);
+}
+</script></body></html>
